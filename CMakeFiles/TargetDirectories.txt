@@ -1,0 +1,1 @@
+/home/scao/Desktop/kinview/CMakeFiles/Dispaly.dir

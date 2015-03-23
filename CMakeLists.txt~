@@ -1,0 +1,22 @@
+######################################################################################
+# Packages needed for examples
+######################################################################################
+cmake_minimum_required(VERSION 2.8)
+
+# All viewers need pthreads and GLUT.
+set(THREADS_USE_PTHREADS_WIN32 true)
+find_package(Threads)
+find_package(OpenGL)
+find_package(OpenCV)
+find_package(GLUT)
+
+if (Threads_FOUND AND OPENGL_FOUND AND GLUT_FOUND)
+  include_directories(${THREADS_PTHREADS_INCLUDE_DIR} ${OPENGL_INCLUDE_DIR} ${GLUT_INCLUDE_DIR})
+ # add_executable(freenect-regview regview.c)
+  add_executable(Dispaly kinectDisplay.cpp)
+
+  #target_link_libraries(freenect-regview freenect -lm ${OPENGL_LIBRARIES} ${GLUT_LIBRARY} ${CMAKE_THREAD_LIBS_INIT} ${MATH_LIB} )
+  target_link_libraries(Dispaly freenect -lm ${OPENCV_LIBRARIES} ${OPENGL_LIBRARIES} ${GLUT_LIBRARY} ${CMAKE_THREAD_LIBS_INIT} ${MATH_LIB} )
+ # install(TARGETS  freenect-regview DESTINATION bin)
+endif ()
+
