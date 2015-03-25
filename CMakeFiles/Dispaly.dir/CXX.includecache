@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/scao/Desktop/kinview/kinectDisplay.cpp
+/home/scao/Desktop/kinview/KinectFaceDetection.cpp
 libfreenect.hpp
 /home/scao/Desktop/kinview/libfreenect.hpp
 iostream
@@ -25,6 +25,10 @@ opencv/cxcore.h
 -
 opencv/highgui.h
 -
+opencv2/objdetect/objdetect.hpp
+/home/scao/Desktop/kinview/opencv2/objdetect/objdetect.hpp
+opencv2/video/video.hpp
+/home/scao/Desktop/kinview/opencv2/video/video.hpp
 
 /usr/local/include/opencv/cv.h
 opencv2/core/core_c.h
@@ -686,9 +690,21 @@ map
 deque
 -
 
+/usr/local/include/opencv2/video/background_segm.hpp
+opencv2/core/core.hpp
+/usr/local/include/opencv2/video/opencv2/core/core.hpp
+list
+-
+
 /usr/local/include/opencv2/video/tracking.hpp
 opencv2/core/core.hpp
 /usr/local/include/opencv2/video/opencv2/core/core.hpp
 opencv2/imgproc/imgproc.hpp
 /usr/local/include/opencv2/video/opencv2/imgproc/imgproc.hpp
+
+/usr/local/include/opencv2/video/video.hpp
+opencv2/video/tracking.hpp
+/usr/local/include/opencv2/video/opencv2/video/tracking.hpp
+opencv2/video/background_segm.hpp
+/usr/local/include/opencv2/video/opencv2/video/background_segm.hpp
 

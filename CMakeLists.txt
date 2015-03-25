@@ -13,7 +13,7 @@ find_package(GLUT)
 if (Threads_FOUND AND OPENGL_FOUND AND GLUT_FOUND)
   include_directories(${THREADS_PTHREADS_INCLUDE_DIR} ${OPENGL_INCLUDE_DIR} ${GLUT_INCLUDE_DIR})
  # add_executable(freenect-regview regview.c)
-  add_executable(Dispaly kinectDisplay.cpp)
+  add_executable(Dispaly KinectFaceDetection.cpp)
 
   #target_link_libraries(freenect-regview freenect -lm ${OPENGL_LIBRARIES} ${GLUT_LIBRARY} ${CMAKE_THREAD_LIBS_INIT} ${MATH_LIB} )
   target_link_libraries(Dispaly freenect -lm ${OpenCV_LIBS} ${OPENGL_LIBRARIES} ${GLUT_LIBRARY} ${CMAKE_THREAD_LIBS_INIT} ${MATH_LIB} )

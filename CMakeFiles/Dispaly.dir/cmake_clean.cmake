@@ -1,5 +1,5 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/Dispaly.dir/kinectDisplay.cpp.o"
+  "CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.o"
   "Dispaly.pdb"
   "Dispaly"
 )

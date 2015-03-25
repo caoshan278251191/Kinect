@@ -49,37 +49,37 @@ include CMakeFiles/Dispaly.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Dispaly.dir/flags.make
 
-CMakeFiles/Dispaly.dir/kinectDisplay.cpp.o: CMakeFiles/Dispaly.dir/flags.make
-CMakeFiles/Dispaly.dir/kinectDisplay.cpp.o: kinectDisplay.cpp
+CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.o: CMakeFiles/Dispaly.dir/flags.make
+CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.o: KinectFaceDetection.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/scao/Desktop/kinview/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Dispaly.dir/kinectDisplay.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Dispaly.dir/kinectDisplay.cpp.o -c /home/scao/Desktop/kinview/kinectDisplay.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.o -c /home/scao/Desktop/kinview/KinectFaceDetection.cpp
 
-CMakeFiles/Dispaly.dir/kinectDisplay.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dispaly.dir/kinectDisplay.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/scao/Desktop/kinview/kinectDisplay.cpp > CMakeFiles/Dispaly.dir/kinectDisplay.cpp.i
+CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/scao/Desktop/kinview/KinectFaceDetection.cpp > CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.i
 
-CMakeFiles/Dispaly.dir/kinectDisplay.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dispaly.dir/kinectDisplay.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/scao/Desktop/kinview/kinectDisplay.cpp -o CMakeFiles/Dispaly.dir/kinectDisplay.cpp.s
+CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/scao/Desktop/kinview/KinectFaceDetection.cpp -o CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.s
 
-CMakeFiles/Dispaly.dir/kinectDisplay.cpp.o.requires:
-.PHONY : CMakeFiles/Dispaly.dir/kinectDisplay.cpp.o.requires
+CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.o.requires:
+.PHONY : CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.o.requires
 
-CMakeFiles/Dispaly.dir/kinectDisplay.cpp.o.provides: CMakeFiles/Dispaly.dir/kinectDisplay.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Dispaly.dir/build.make CMakeFiles/Dispaly.dir/kinectDisplay.cpp.o.provides.build
-.PHONY : CMakeFiles/Dispaly.dir/kinectDisplay.cpp.o.provides
+CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.o.provides: CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Dispaly.dir/build.make CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.o.provides.build
+.PHONY : CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.o.provides
 
-CMakeFiles/Dispaly.dir/kinectDisplay.cpp.o.provides.build: CMakeFiles/Dispaly.dir/kinectDisplay.cpp.o
+CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.o.provides.build: CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.o
 
 # Object files for target Dispaly
 Dispaly_OBJECTS = \
-"CMakeFiles/Dispaly.dir/kinectDisplay.cpp.o"
+"CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.o"
 
 # External object files for target Dispaly
 Dispaly_EXTERNAL_OBJECTS =
 
-Dispaly: CMakeFiles/Dispaly.dir/kinectDisplay.cpp.o
+Dispaly: CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.o
 Dispaly: CMakeFiles/Dispaly.dir/build.make
 Dispaly: /usr/local/lib/libopencv_videostab.so.2.4.9
 Dispaly: /usr/local/lib/libopencv_video.so.2.4.9
@@ -137,7 +137,7 @@ Dispaly: CMakeFiles/Dispaly.dir/link.txt
 CMakeFiles/Dispaly.dir/build: Dispaly
 .PHONY : CMakeFiles/Dispaly.dir/build
 
-CMakeFiles/Dispaly.dir/requires: CMakeFiles/Dispaly.dir/kinectDisplay.cpp.o.requires
+CMakeFiles/Dispaly.dir/requires: CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.o.requires
 .PHONY : CMakeFiles/Dispaly.dir/requires
 
 CMakeFiles/Dispaly.dir/clean:

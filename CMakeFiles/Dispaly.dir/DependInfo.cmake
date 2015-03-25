@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/scao/Desktop/kinview/kinectDisplay.cpp" "/home/scao/Desktop/kinview/CMakeFiles/Dispaly.dir/kinectDisplay.cpp.o"
+  "/home/scao/Desktop/kinview/KinectFaceDetection.cpp" "/home/scao/Desktop/kinview/CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

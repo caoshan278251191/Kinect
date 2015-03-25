@@ -111,29 +111,29 @@ Dispaly/fast:
 	$(MAKE) -f CMakeFiles/Dispaly.dir/build.make CMakeFiles/Dispaly.dir/build
 .PHONY : Dispaly/fast
 
-kinectDisplay.o: kinectDisplay.cpp.o
-.PHONY : kinectDisplay.o
+KinectFaceDetection.o: KinectFaceDetection.cpp.o
+.PHONY : KinectFaceDetection.o
 
 # target to build an object file
-kinectDisplay.cpp.o:
-	$(MAKE) -f CMakeFiles/Dispaly.dir/build.make CMakeFiles/Dispaly.dir/kinectDisplay.cpp.o
-.PHONY : kinectDisplay.cpp.o
+KinectFaceDetection.cpp.o:
+	$(MAKE) -f CMakeFiles/Dispaly.dir/build.make CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.o
+.PHONY : KinectFaceDetection.cpp.o
 
-kinectDisplay.i: kinectDisplay.cpp.i
-.PHONY : kinectDisplay.i
+KinectFaceDetection.i: KinectFaceDetection.cpp.i
+.PHONY : KinectFaceDetection.i
 
 # target to preprocess a source file
-kinectDisplay.cpp.i:
-	$(MAKE) -f CMakeFiles/Dispaly.dir/build.make CMakeFiles/Dispaly.dir/kinectDisplay.cpp.i
-.PHONY : kinectDisplay.cpp.i
+KinectFaceDetection.cpp.i:
+	$(MAKE) -f CMakeFiles/Dispaly.dir/build.make CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.i
+.PHONY : KinectFaceDetection.cpp.i
 
-kinectDisplay.s: kinectDisplay.cpp.s
-.PHONY : kinectDisplay.s
+KinectFaceDetection.s: KinectFaceDetection.cpp.s
+.PHONY : KinectFaceDetection.s
 
 # target to generate assembly for a file
-kinectDisplay.cpp.s:
-	$(MAKE) -f CMakeFiles/Dispaly.dir/build.make CMakeFiles/Dispaly.dir/kinectDisplay.cpp.s
-.PHONY : kinectDisplay.cpp.s
+KinectFaceDetection.cpp.s:
+	$(MAKE) -f CMakeFiles/Dispaly.dir/build.make CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.s
+.PHONY : KinectFaceDetection.cpp.s
 
 # Help Target
 help:
@@ -144,9 +144,9 @@ help:
 	@echo "... Dispaly"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... kinectDisplay.o"
-	@echo "... kinectDisplay.i"
-	@echo "... kinectDisplay.s"
+	@echo "... KinectFaceDetection.o"
+	@echo "... KinectFaceDetection.i"
+	@echo "... KinectFaceDetection.s"
 .PHONY : help
 
 
