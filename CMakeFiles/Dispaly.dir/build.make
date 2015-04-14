@@ -34,11 +34,14 @@ RM = /usr/bin/cmake -E remove -f
 # Escaping for special characters.
 EQUALS = =
 
+# The program to use to edit the cache.
+CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/scao/Desktop/kinview
+CMAKE_SOURCE_DIR = /home/shan-cao/Desktop/GitHub/Kinect
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/scao/Desktop/kinview
+CMAKE_BINARY_DIR = /home/shan-cao/Desktop/GitHub/Kinect
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Dispaly.dir/depend.make
@@ -51,17 +54,17 @@ include CMakeFiles/Dispaly.dir/flags.make
 
 CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.o: CMakeFiles/Dispaly.dir/flags.make
 CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.o: KinectFaceDetection.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/scao/Desktop/kinview/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/shan-cao/Desktop/GitHub/Kinect/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.o -c /home/scao/Desktop/kinview/KinectFaceDetection.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.o -c /home/shan-cao/Desktop/GitHub/Kinect/KinectFaceDetection.cpp
 
 CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/scao/Desktop/kinview/KinectFaceDetection.cpp > CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/shan-cao/Desktop/GitHub/Kinect/KinectFaceDetection.cpp > CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.i
 
 CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/scao/Desktop/kinview/KinectFaceDetection.cpp -o CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/shan-cao/Desktop/GitHub/Kinect/KinectFaceDetection.cpp -o CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.s
 
 CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.o.requires:
 .PHONY : CMakeFiles/Dispaly.dir/KinectFaceDetection.cpp.o.requires
@@ -145,6 +148,6 @@ CMakeFiles/Dispaly.dir/clean:
 .PHONY : CMakeFiles/Dispaly.dir/clean
 
 CMakeFiles/Dispaly.dir/depend:
-	cd /home/scao/Desktop/kinview && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/scao/Desktop/kinview /home/scao/Desktop/kinview /home/scao/Desktop/kinview /home/scao/Desktop/kinview /home/scao/Desktop/kinview/CMakeFiles/Dispaly.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/shan-cao/Desktop/GitHub/Kinect && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shan-cao/Desktop/GitHub/Kinect /home/shan-cao/Desktop/GitHub/Kinect /home/shan-cao/Desktop/GitHub/Kinect /home/shan-cao/Desktop/GitHub/Kinect /home/shan-cao/Desktop/GitHub/Kinect/CMakeFiles/Dispaly.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Dispaly.dir/depend
 

@@ -1,1 +1,1 @@
-/home/scao/Desktop/kinview/CMakeFiles/Dispaly.dir
+/home/shan-cao/Desktop/GitHub/Kinect/CMakeFiles/Dispaly.dir

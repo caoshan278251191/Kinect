@@ -11,7 +11,8 @@ find_package(OpenCV)
 find_package(GLUT)
 
 if (Threads_FOUND AND OPENGL_FOUND AND GLUT_FOUND)
-  include_directories(${THREADS_PTHREADS_INCLUDE_DIR} ${OPENGL_INCLUDE_DIR} ${GLUT_INCLUDE_DIR})
+  include_directories(${THREADS_PTHREADS_INCLUDE_DIR} ${OPENGL_INCLUDE_DIR} ${GLUT_INCLUDE_DIR} /usr/local/include/libusb-1.0)
+  include_directories(${LIBUSB_1_INCLUDE_DIRS})
  # add_executable(freenect-regview regview.c)
   add_executable(Dispaly KinectFaceDetection.cpp)
 
